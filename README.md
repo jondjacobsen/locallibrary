@@ -1,5 +1,6 @@
 ![alt text](https://yt3.ggpht.com/a-/AAuE7mAQox-RNLVUSg2hWFhsB5E8oWOtHprcJI08zA=s288-mo-c-c0xffffffff-rj-k-no)
-# Mozilla Developer Network Tutorial
+Mozilla Developer Network Tutorial
+======
 ## Learning Web Development
 
 ### Sections Completed:
