@@ -10,5 +10,7 @@
 5. Tutorial PArt 2: Creating the skeleton website
 6. Tutoiral Part 3: Using Models
 ---
-> Working Point
+> _**Working Point**_:
+> ![MDN Link](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Models)
+
 :ocean:
