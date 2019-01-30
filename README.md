@@ -6,11 +6,24 @@
 - [x] Django web framework (Python) overview
 - [x] Introduction
 - [x] Setting up a development environment
-- [x] Tutorial: The Local Library Website
-- [x] Tutorial PArt 2: Creating the skeleton website
-- [ ] Tutoiral Part 3: Using Models
+- [x] Django Tutorial: The Local Library Website
+- [x] Django Tutorial Part 2: Creating the skeleton website
+- [x] Django Tutoiral Part 3: Using Models
+- [ ] Django Tutorial Part 4: Django admin site
+- [ ] Django Tutorial Part 5: Creating our home page
+- [ ] Django Tutorial Part 6: Generic list and detail views
+- [ ] Django Tutorial Part 7: Sessions framework
+- [ ] Django Tutorial Part 8: User authentication and permissions
+- [ ] Django Tutorial Part 9: Working with forms
+- [ ] Django Tutorial Part 10: Testing a Django web application
+- [ ] Django Tutorial Part 11: Deploying Django to production
+- [ ] Django web application security
+- [ ] DIY Django mini blog
+
+
+
 ---
 > _**Working Point**_:
-> ![MDN Link](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Models)
-
+> !CURRENT SECTION](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Admin_site)
+---
 :ocean:
