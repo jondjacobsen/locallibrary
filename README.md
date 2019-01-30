@@ -24,6 +24,6 @@
 
 ---
 > _**Working Point**_:
-> !CURRENT SECTION](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Admin_site)
+> [CURRENT SECTION](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Admin_site)
 ---
 :ocean:
