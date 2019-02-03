@@ -24,6 +24,11 @@
 
 ---
 > _**Working Point**_:
-> [CURRENT SECTION](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Admin_site)
+
+> ## Advanced configuration
+
+
+- Django does a pretty good job of creating a basic admin site using the information from the registered models:
+> - [CURRENT SECTION](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Admin_site#Advanced_configuration)
 ---
 :ocean:
