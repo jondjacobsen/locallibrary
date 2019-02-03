@@ -35,4 +35,4 @@
 ---
 > ### [Django Documentation](https://docs.djangoproject.com/en/2.1/)
 ---
-> :ocean:
+> [ :ocean: ](http://localhost:8000/admin/)
