@@ -36,3 +36,5 @@
 > ### [Django Documentation](https://docs.djangoproject.com/en/2.1/)
 ---
 > [ :ocean: ](http://localhost:8000/admin/)
+---
+> [Markdown List](https://guides.github.com/features/mastering-markdown/)
