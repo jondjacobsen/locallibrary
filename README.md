@@ -34,6 +34,7 @@
 > Project Location on Github [Link](https://github.com/mdn/django-locallibrary-tutorial)
 ---
 > ### [Django Documentation](https://docs.djangoproject.com/en/2.1/)
+> #### [Django Admin Site Doc](https://docs.djangoproject.com/en/2.1/ref/contrib/admin/)
 ---
 > [ :ocean: ](http://localhost:8000/admin/)
 ---
