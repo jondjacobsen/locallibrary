@@ -18,7 +18,7 @@ class BookAdmin(admin.ModelAdmin):
 
 # Register the Admin classes for BookInstance using the decorator
 admin.site.register(BookInstance)
-class BookInstanceAdmin(admin.ModelAdmin)
+class BookInstanceAdmin(admin.ModelAdmin):
     pass
 
 
