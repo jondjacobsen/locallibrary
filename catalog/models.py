@@ -50,17 +50,16 @@ class Book(models.Model):
         """Creates a string for the Genre. This is required to display genre in Admin."""
         return ', '.join([genre.name for genre in self.genre.all()[:3]])
 
-
     display_genre.short_description = 'Genre'
+
+    def get_absolute_url(self):
+        """Returns the url to access a particular book instance."""
+        return reverse('book-detail', args=[str(self.id)])
 
     def __str__(self):
         """String for representing the Model object."""
         return self.title
 
-
-    def get_absolute_url(self):
-        """Returns the url to access a detail record for this book."""
-        return reverse('book-detail', args=[str(self.id)])
 
 # ----------------------------------------
 #THE BOOK INSTANCE MODEL
