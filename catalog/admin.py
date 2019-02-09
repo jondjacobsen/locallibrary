@@ -21,7 +21,8 @@ admin.site.register(Book, BookAdmin)
 # Register the Admin classes for BookInstance using the decorator
 
 class BookInstanceAdmin(admin.ModelAdmin):
-    pass
+    list_display = ('book', 'status', 'due_back')
+    list_filter = ('status', 'due_back')
 admin.site.register(BookInstance, BookInstanceAdmin)
 
 admin.site.register(Language)
