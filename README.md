@@ -9,7 +9,7 @@
 - [x] Django Tutorial: The Local Library Website
 - [x] Django Tutorial Part 2: Creating the skeleton website
 - [x] Django Tutoiral Part 3: Using Models
-- [ ] Django Tutorial Part 4: Django admin site
+- [X] Django Tutorial Part 4: Django admin site
 - [ ] Django Tutorial Part 5: Creating our home page
 - [ ] Django Tutorial Part 6: Generic list and detail views
 - [ ] Django Tutorial Part 7: Sessions framework
@@ -29,7 +29,7 @@
 
 
 - Django does a pretty good job of creating a basic admin site using the information from the registered models:
-> - [CURRENT SECTION: Inline Editing of Associated Records](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Admin_site#Inline_editing_of_associated_records)
+> - [CURRENT SECTION: Inline Editing of Associated Records](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Home_page#Overview)
 ---
 > Project Location on Github [Link](https://github.com/mdn/django-locallibrary-tutorial)
 ---
