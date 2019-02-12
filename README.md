@@ -29,7 +29,7 @@
 
 
 - Django does a pretty good job of creating a basic admin site using the information from the registered models:
-> - [CURRENT SECTION: Django Tutorial Part 5: Creating our home page](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Home_page#Overview)
+> - [CURRENT SECTION: Creating the index page - View (function-based)](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Home_page#View_(function-based))
 ---
 > Project Location on Github [Link](https://github.com/mdn/django-locallibrary-tutorial)
 ---
