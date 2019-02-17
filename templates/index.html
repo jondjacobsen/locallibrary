@@ -1,10 +1,11 @@
 {% extends "base_generic.html" %}
 
 {% block content %}
-  <h1>Local Library Home</h1>
-  <p>Welcome to LocalLibrary, a website developed by <em>Mozilla Developer Network</em>!</p>
+  <h1>Silver Street Media Book Database</h1>
+  <p>Welcome to Silver Street's massive Database, a website developed by <em>Jonathan Jacobsen</em>!</p>
   <h2>Dynamic content</h2>
   <p>The library has the following record counts:</p>
+  <p>There are <u><strong> {{  num_genres  }} </strong> Genres </u> represented in the catalog:</p>
   <ul>
     <li><strong>Books:</strong> {{ num_books }}</li>
     <li><strong>Copies:</strong> {{ num_instances }}</li>
