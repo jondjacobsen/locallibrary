@@ -10,7 +10,7 @@
 - [x] Django Tutorial Part 2: Creating the skeleton website
 - [x] Django Tutoiral Part 3: Using Models
 - [X] Django Tutorial Part 4: Django admin site
-- [ ] Django Tutorial Part 5: Creating our home page
+- [X] Django Tutorial Part 5: Creating our home page
 - [ ] Django Tutorial Part 6: Generic list and detail views
 - [ ] Django Tutorial Part 7: Sessions framework
 - [ ] Django Tutorial Part 8: User authentication and permissions
@@ -29,7 +29,7 @@
 
 
 - Django does a pretty good job of creating a basic admin site using the information from the registered models:
-> - [CURRENT SECTION: Creating the index page - View (function-based)](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Home_page#View_(function-based))
+> - [CURRENT SECTION: Django Tutorial Part 6: Generic list and detail views](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Generic_views)
 ---
 > Project Location on Github [Link](https://github.com/mdn/django-locallibrary-tutorial)
 ---
