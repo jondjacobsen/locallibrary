@@ -29,7 +29,8 @@
 
 
 - Django does a pretty good job of creating a basic admin site using the information from the registered models:
-> - [CURRENT SECTION: Django Tutorial Part 6: Generic list and detail views](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Generic_views)
+> - [CURRENT SECTION: Book detail page - URL mapping](class BookDetailView(generic.DetailView):
+    model = Book)
 ---
 > Project Location on Github [Link](https://github.com/mdn/django-locallibrary-tutorial)
 ---
