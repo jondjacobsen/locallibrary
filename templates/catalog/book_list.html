@@ -1,15 +1,26 @@
 {% extends "base_generic.html" %}
 
 {% block content %}
-  <h1>Book List</h1>
+  <h1>Silver Street Book List</h1>
   {% if book_list %}
-  <ul>
+  <table class="table">
+    <thead>
+        <tr>
+            <th>ISBN</th>
+            <th>Title</th>
+            <th>Author</th>
+        </tr>
+    </thead>
     {% for book in book_list %}
-      <li>
-        <a href="{{ book.get_absolute_url }}">{{ book.title }}</a> ({{book.author}})
-      </li>
+      <tbody>
+        <tr>
+            <td><strong><a href="{{ book.get_absolute_url }}">{{ book.isbn }} </strong></td>
+            <td><a href="{{ book.get_absolute_url }}">{{ book.title }}</a></td>
+            <td>({{book.author}})</td>
+        </tr>
+      </tbody>
     {% endfor %}
-  </ul>
+  </table>
   {% else %}
     <p>There are no books in the library.</p>
   {% endif %}

@@ -38,10 +38,3 @@ from django.views import generic
 
 class BookListView(generic.ListView):
     model = Book
-
-    def get_context_data(self, **kwargs):
-        # Call the base implementation first to get the context
-        context = super(BookListView, self).get_context_data(**kwargs)
-        # Create any data and add it to the context
-        context['some_data'] = 'This is just some data'
-        return context
