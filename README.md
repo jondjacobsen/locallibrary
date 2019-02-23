@@ -59,7 +59,7 @@ $   	        | 	Match the end of the text
 [  ]            | 	Match against one character in the set. For example, [abc] will match on 'a' or 'b' or 'c'. [-\w] will match on the '-' character or any word character.
 
 ---
-Pattern                     |       	Description
+Pattern                     |       	Description(s)
 --------------------------- |  -------------------------------- 
 r'^book/(?P<pk>\d+)$' 	    |  This is the RE used in our URL mapper. It matches a string that has book/ at the start of the line (^book/), then has one or more digits (\d+), and then ends (with no non-digit characters before the end of line marker). It also captures all the digits (?P<pk>\d+) and passes them to the view in a parameter named 'pk'. The captured values are always passed as a string! For example, this would match book/1234 , and send a variable pk='1234' to the view.
 r'^book/(\d+)$' 	        |  This matches the same URLs as the preceding case. The captured information would be sent as an unnamed argument to the view.
