@@ -46,14 +46,14 @@
 >[Bacon Ipsum](https://baconipsum.com/?paras=5&type=all-meat&start-with-lorem=1)
 
 ---
-Symbol | Meaning
------- | ----------
-^ 	| Match the beginning of the text
-$ 	| 	Match the end of the text
-\d 	| 	Match a digit (0, 1, 2, ... 9)
-\w 	| 	Match a word character, e.g. any upper- or lower-case character in the alphabet, digit or the underscore character (_)
-+ 	| 	Match one or more of the preceding character. For example, to match one or more digits you would use \d+. To match one or more "a" characters, you could use a+
-"*" 	| 	Match zero or more of the preceding character. For example, to match nothing or a word you could use \w*
-( ) | 	Capture the part of the pattern inside the brackets. Any captured values will be passed to the view as unnamed parameters (if multiple patterns are captured, the associated parameters will be supplied in the order that the captures were declared).
+Symbol          | Meaning
+------          | ----------
+^ 	            | Match the beginning of the text
+$   	        | 	Match the end of the text
+\d 	            | 	Match a digit (0, 1, 2, ... 9)
+\w 	            | 	Match a word character, e.g. any upper- or lower-case character in the alphabet, digit or the underscore character (_)
++ 	            | 	Match one or more of the preceding character. For example, to match one or more digits you would use \d+. To match one or more "a" characters, you could use a+
+"*"             | 	Match zero or more of the preceding character. For example, to match nothing or a word you could use \w*
+( )             | 	Capture the part of the pattern inside the brackets. Any captured values will be passed to the view as unnamed parameters (if multiple patterns are captured, the associated parameters will be supplied in the order that the captures were declared).
 (?P<name>...)   | 	Capture the pattern (indicated by ...) as a named variable (in this case "name"). The captured values are passed to the view with the name specified. Your view must therefore declare an argument with the same name!
-[  ]   | 	Match against one character in the set. For example, [abc] will match on 'a' or 'b' or 'c'. [-\w] will match on the '-' character or any word character.
+[  ]            | 	Match against one character in the set. For example, [abc] will match on 'a' or 'b' or 'c'. [-\w] will match on the '-' character or any word character.
