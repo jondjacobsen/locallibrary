@@ -47,8 +47,7 @@
 
 ---
 Symbol | Meaning
-
-------- | ----------
+------ | ----------
 ^ 	| Match the beginning of the text
 $ 	| 	Match the end of the text
 \d 	| 	Match a digit (0, 1, 2, ... 9)
