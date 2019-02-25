@@ -14,7 +14,7 @@
     {% for book in book_list %}
       <tbody>
         <tr>
-            <td><strong><a href="{{ book.get_absolute_url }}">{{ book.isbn }} </strong></td>
+            <td><strong>{{ book.isbn }}</strong></td>
             <td><a href="{{ book.get_absolute_url }}">{{ book.title }}</a></td>
             <td>({{book.author}})</td>
         </tr>
