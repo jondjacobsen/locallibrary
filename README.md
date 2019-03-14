@@ -65,3 +65,4 @@ r'^book/(\d+)$' 	        |  This matches the same URLs as the preceding case. Th
 r'^book/(?P<stub>[-\w]+)$' 	|  This matches a string that has book/ at the start of the line (^book/), then has one or more characters that are either a '-' or a word character ([-\w]+), and then ends. It also captures this set of characters and passes them to the view in a parameter named 'stub'. This is a fairly typical pattern for a "stub". Stubs are URL-friendly word-based primary keys for data. You might use a stub if you wanted your book URL to be more informative. For example /catalog/book/the-secret-garden rather than /catalog/book/33.
 
 >I'm here - again
+>Next
