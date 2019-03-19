@@ -1,0 +1,21 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Author: {{ author.first_name }} {{ author.last_name }}</h1>
+    </br>
+  <p><strong>First Name:</strong> <a href="">{{ author.first_name }}</a></p> <!-- author detail link not yet defined -->
+  <p><strong>Surname:</strong> {{ author.last_name }}</p>
+  <p><strong>Date of Birth:</strong> {{ author.date_of_birth }}</p>
+  <p><strong>Date of Death:</strong> {{ author.date_of_death }}</p>
+
+  <div style="margin-left:20px;margin-top:20px">
+    <h4>Books Written</h4>
+
+    {% for item in author.book_set.all %}
+      <hr>
+        <p><strong>Title:</strong> {{item.title}}</p>
+      <p><strong>Imprint:</strong> {{item.publisher}}</p>
+      <p class="text-muted"><strong>Id:</strong> {{item.id}}</p>
+    {% endfor %}
+  </div>
+{% endblock %}

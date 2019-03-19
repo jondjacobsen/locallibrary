@@ -1,0 +1,27 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Silver Street Book List</h1>
+  {% if author_list %}
+  <table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>DOB</th>
+            <th>Death</th>
+        </tr>
+    </thead>
+    {% for author in author_list %}
+      <tbody>
+        <tr>
+            <td><strong><a href="{{ author.get_absolute_url }}">{{ author.last_name }}, {{ author.first_name }}</a></strong></td>
+            <td>{{ author.date_of_birth }}</td>
+            <td>({{author.date_of_death}})</td>
+        </tr>
+      </tbody>
+    {% endfor %}
+  </table>
+  {% else %}
+    <p>There are no books in the library.</p>
+  {% endif %}
+{% endblock %}
