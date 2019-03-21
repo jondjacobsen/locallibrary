@@ -13,9 +13,9 @@
 
     {% for item in author.book_set.all %}
       <hr>
-        <p><strong>Title:</strong> {{item.title}}</p>
-      <p><strong>Imprint:</strong> {{item.publisher}}</p>
-      <p class="text-muted"><strong>Id:</strong> {{item.id}}</p>
+        <p><strong>Title: </strong><a href=" {{ item.get_absolute_url }}">{{item.title}}</a></p>
+      <p><strong>Imprint: </strong> {{item.publisher}}</p>
+      <p class="text-muted"><strong>Id: </strong> {{item.id}}</p>
     {% endfor %}
   </div>
 {% endblock %}
