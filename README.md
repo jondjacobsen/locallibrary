@@ -65,8 +65,8 @@ r'^book/(\d+)$' 	        |  This matches the same URLs as the preceding case. Th
 r'^book/(?P<stub>[-\w]+)$' 	|  This matches a string that has book/ at the start of the line (^book/), then has one or more characters that are either a '-' or a word character ([-\w]+), and then ends. It also captures this set of characters and passes them to the view in a parameter named 'stub'. This is a fairly typical pattern for a "stub". Stubs are URL-friendly word-based primary keys for data. You might use a stub if you wanted your book URL to be more informative. For example /catalog/book/the-secret-garden rather than /catalog/book/33.
 
 ##Part 6: References
->[Built-in class-based generic views (Django docs)](https://docs.djangoproject.com/en/2.1/topics/class-based-views/generic-display/)
->[Generic display views (Django docs)](https://docs.djangoproject.com/en/2.1/ref/class-based-views/generic-display/)
->[Introduction to class-based views (Django docs)](https://docs.djangoproject.com/en/2.1/topics/class-based-views/intro/)
->[Built-in template tags and filters (Django docs)](https://docs.djangoproject.com/en/2.1/ref/templates/builtins)
->[Pagination (Django docs)](https://docs.djangoproject.com/en/2.1/topics/pagination/)
+> - [Built-in class-based generic views (Django docs)](https://docs.djangoproject.com/en/2.1/topics/class-based-views/generic-display/)
+> - [Generic display views (Django docs)](https://docs.djangoproject.com/en/2.1/ref/class-based-views/generic-display/)
+> - [Introduction to class-based views (Django docs)](https://docs.djangoproject.com/en/2.1/topics/class-based-views/intro/)
+> - [Built-in template tags and filters (Django docs)](https://docs.djangoproject.com/en/2.1/ref/templates/builtins)
+> - [Pagination (Django docs)](https://docs.djangoproject.com/en/2.1/topics/pagination/)
