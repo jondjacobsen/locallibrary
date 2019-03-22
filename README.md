@@ -24,7 +24,7 @@
 
 ---
 > _**Working Point**_:
-> - [CURRENT SECTION: Pagination](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Generic_views#Pagination )
+> - [CURRENT SECTION: Django Tutorial Part 7: Sessions framework](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Sessions#Overview)
 
 ---
 # REFERENCES
