@@ -24,25 +24,33 @@
 
 ---
 > _**Working Point**_:
-
-> ## Advanced configuration
-
-
-- Django does a pretty good job of creating a basic admin site using the information from the registered models:
 > - [CURRENT SECTION: Pagination](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Generic_views#Pagination )
+
+---
+# REFERENCES
+---
+
 ---
 > Project Location on Github [Link](https://github.com/mdn/django-locallibrary-tutorial)
 ---
-> ### [Django Documentation](https://docs.djangoproject.com/en/2.1/)
-> #### [Django Admin Site Doc](https://docs.djangoproject.com/en/2.1/ref/contrib/admin/)
+> - [Django Documentation](https://docs.djangoproject.com/en/2.1/)
+> - [Django Admin Site Doc](https://docs.djangoproject.com/en/2.1/ref/contrib/admin/)
+> - [ :ocean: ](http://localhost:8000/admin/)
+> - [Markdown List](https://guides.github.com/features/mastering-markdown/)
+> - [github emojis](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+> - [Bacon Ipsum](https://baconipsum.com/?paras=5&type=all-meat&start-with-lorem=1)
+
+
+#### Part 6: References
+> - [Built-in class-based generic views (Django docs)](https://docs.djangoproject.com/en/2.1/topics/class-based-views/generic-display/)
+> - [Generic display views (Django docs)](https://docs.djangoproject.com/en/2.1/ref/class-based-views/generic-display/)
+> - [Introduction to class-based views (Django docs)](https://docs.djangoproject.com/en/2.1/topics/class-based-views/intro/)
+> - [Built-in template tags and filters (Django docs)](https://docs.djangoproject.com/en/2.1/ref/templates/builtins)
+> - [Pagination (Django docs)](https://docs.djangoproject.com/en/2.1/topics/pagination/)
+
 ---
-> [ :ocean: ](http://localhost:8000/admin/)
----
-> [Markdown List](https://guides.github.com/features/mastering-markdown/)
----
->[github emojis](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
----
->[Bacon Ipsum](https://baconipsum.com/?paras=5&type=all-meat&start-with-lorem=1)
+
+### Regular Expressions
 
 ---
 Symbol          | Meaning
@@ -57,16 +65,8 @@ $   	        | 	Match the end of the text
 (?P<name>...)   | 	Capture the pattern (indicated by ...) as a named variable (in this case "name"). The captured values are passed to the view with the name specified. Your view must therefore declare an argument with the same name!
 [  ]            | 	Match against one character in the set. For example, [abc] will match on 'a' or 'b' or 'c'. [-\w] will match on the '-' character or any word character.
 
----
 Pattern                     |       	Description(s)
 --------------------------- |  -------------------------------- 
 r'^book/(?P<pk>\d+)$' 	    |  This is the RE used in our URL mapper. It matches a string that has book/ at the start of the line (^book/), then has one or more digits (\d+), and then ends (with no non-digit characters before the end of line marker). It also captures all the digits (?P<pk>\d+) and passes them to the view in a parameter named 'pk'. The captured values are always passed as a string! For example, this would match book/1234 , and send a variable pk='1234' to the view.
 r'^book/(\d+)$' 	        |  This matches the same URLs as the preceding case. The captured information would be sent as an unnamed argument to the view.
 r'^book/(?P<stub>[-\w]+)$' 	|  This matches a string that has book/ at the start of the line (^book/), then has one or more characters that are either a '-' or a word character ([-\w]+), and then ends. It also captures this set of characters and passes them to the view in a parameter named 'stub'. This is a fairly typical pattern for a "stub". Stubs are URL-friendly word-based primary keys for data. You might use a stub if you wanted your book URL to be more informative. For example /catalog/book/the-secret-garden rather than /catalog/book/33.
-
-##Part 6: References
-> - [Built-in class-based generic views (Django docs)](https://docs.djangoproject.com/en/2.1/topics/class-based-views/generic-display/)
-> - [Generic display views (Django docs)](https://docs.djangoproject.com/en/2.1/ref/class-based-views/generic-display/)
-> - [Introduction to class-based views (Django docs)](https://docs.djangoproject.com/en/2.1/topics/class-based-views/intro/)
-> - [Built-in template tags and filters (Django docs)](https://docs.djangoproject.com/en/2.1/ref/templates/builtins)
-> - [Pagination (Django docs)](https://docs.djangoproject.com/en/2.1/topics/pagination/)
