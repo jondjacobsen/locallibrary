@@ -24,7 +24,7 @@
 
 ---
 > _**Working Point**_:
-> - [CURRENT SECTION: Django Tutorial Part 7: Sessions framework - What are sessions?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Sessions#What_are_sessions)
+> - [CURRENT SECTION: Django Tutorial Part 7: Enabling sessions](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Sessions#Enabling_sessions)
 
 ---
 # REFERENCES
