@@ -1,4 +1,8 @@
 from django import forms
 
-class BookEntryForm
-    title = forms.CharField(help_text="Author's Name")
+from.models import Book
+
+
+class BookEntryForm(forms.ModelForm):
+    model = Book
+    fields = ('title', 'isbn')
