@@ -9,6 +9,7 @@
             <th>ISBN</th>
             <th>Title</th>
             <th>Author</th>
+            <th>Edit</th>
         </tr>
     </thead>
     {% for book in book_list %}
@@ -17,6 +18,7 @@
             <td><strong>{{ book.isbn }}</strong></td>
             <td><a href="{{ book.get_absolute_url }}">{{ book.title }}</a></td>
             <td>({{book.author}})</td>
+            <td><a href="{{ book.get_absolute_url }}">Edit</a></td>
         </tr>
       </tbody>
     {% endfor %}
