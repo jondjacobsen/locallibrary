@@ -75,7 +75,7 @@ r'^book/(?P<stub>[-\w]+)$' 	|  This matches a string that has book/ at the start
 
 
 'Get a session value by its key (e.g. 'my_car'), raising a KeyError if the key is not present
-''' python
+'''python
 my_car = request.session['my_car']
 '''
 # Get a session value, setting a default if it is not present ('mini')
